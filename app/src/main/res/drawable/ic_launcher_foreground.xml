@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- 背景圆 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,54m-40,0a40,40 0,1 1,80 0a40,40 0,1 1,-80 0"/>
+    
+    <!-- 积分符号 "C" -->
+    <path
+        android:fillColor="@color/primary"
+        android:strokeWidth="4"
+        android:strokeColor="@color/primary"
+        android:pathData="M54,28C40,28 30,40 30,54C30,68 40,80 54,80"/>
+    
+    <!-- 星形装饰 -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M70,38l3,6l6,1l-4,5l1,6l-6,-3l-6,3l1,-6l-4,-5l6,-1z"/>
+    
+</vector>
